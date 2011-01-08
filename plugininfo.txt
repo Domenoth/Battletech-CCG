@@ -1,0 +1,58 @@
+0
+
+0
+
+1
+Stockpile	0	0
+
+3
+Hand	1	0
+Stockpile	0	0
+Scrapheap	1	1
+
+6
+Untap
+Draw
+Repair_Reload
+Deploy
+Missions
+End_of_Turn
+
+3
+DRAWCARD	Draw	1
+SPAWNCARD	Spawn	1
+ROLLD6	RollD6	0
+
+10
+MAKERIGHT0DEGREES	Untap	1
+MAKERIGHT90DEGREES	Tap	1
+ADDCOUNTERRED	Damage+1	1	.2	.2
+REMOVECOUNTERRED	Repair	1
+ADDCOUNTERBLUE	Construction+1	1	.8	.2
+REMOVECOUNTERBLUE	Construction-1	1
+TURNOVER	Flip	1
+CHANGEOWNER	Change_Owner	1
+EDITNOTE	EditNote	1	.8	.01
+CLEARCARD	Clear	0
+
+
+16
+Name	1
+Set	1
+ImageFile	0
+Rarity	1
+Type	1
+Keywords	1
+Allegiance	1
+Cost	1
+Asset	1
+Attack	1
+Armor	1
+Structure	1
+Speed	1
+Mass	1
+Armament	1
+Text	1
+
+1
+cardback
