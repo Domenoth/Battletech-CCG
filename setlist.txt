@@ -4,7 +4,7 @@ setinfo.txt
 3
 Standard
 5
-Limited
+Unlimited
 Counterstrike
 Mercenaries
 MechWarrior
